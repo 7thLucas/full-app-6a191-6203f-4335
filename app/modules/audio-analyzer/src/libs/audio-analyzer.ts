@@ -196,7 +196,7 @@ export class AudioAnalyzer {
 export const audioAnalyzer = singleton<AudioAnalyzer>("audioAnalyzer", () => {
   return new AudioAnalyzer({
     // using cluster ip
-    host: "http://10.43.111.46",
+    host: "http://172.20.15.26",
   });
 });
 
