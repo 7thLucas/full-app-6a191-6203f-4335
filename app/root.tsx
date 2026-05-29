@@ -66,18 +66,18 @@ function RouteChangeReporter() {
 
 export default function App() {
   return (
-    <html lang="en">
+    <html lang="en" className="dark">
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <Meta />
         <Links />
       </head>
-      <body>
+      <body className="min-h-screen antialiased">
         <RouteChangeReporter />
         <ConfigurablesProvider>
           <ConfigurablesCSSBridge />
-          <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+          <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false} forcedTheme="dark">
             <Outlet />
           </ThemeProvider>
         </ConfigurablesProvider>

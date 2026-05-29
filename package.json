@@ -20,6 +20,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@qb/audio-analyzer": "file:./app/modules/audio-analyzer",
     "@react-router/express": "^7.0.0",
     "@react-router/node": "^7.0.0",
     "@typegoose/typegoose": "^12.20.0",
@@ -33,6 +34,7 @@
     "lucide-react": "^0.514.0",
     "mongoose": "~8.21.0",
     "mongoose-delete": "^1.0.7",
+    "multer": "^2.1.1",
     "next-themes": "^0.4.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
@@ -44,6 +46,7 @@
     "@react-router/dev": "^7.0.0",
     "@react-router/remix-routes-option-adapter": "^7.6.2",
     "@types/express": "^5.0.5",
+    "@types/multer": "^2.1.0",
     "@types/node": "^24.10.1",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
